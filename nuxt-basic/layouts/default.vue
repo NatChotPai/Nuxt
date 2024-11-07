@@ -1,0 +1,57 @@
+<template>
+    <div>
+        <header>
+            <nav>
+                <h1 class="logo">หน้าแรกของ shop</h1>
+                <NuxtLink to="/">First Page</NuxtLink>
+                <NuxtLink to="/about"> About</NuxtLink>
+                <NuxtLink to="/products">All Product</NuxtLink>
+            </nav>
+        </header>
+        <div>
+            <slot/>
+        </div>
+        <footer>
+            <nav> 
+                <h1>เกี่ยวกับผู้พัฒนา footer</h1>
+            </nav>
+        </footer>
+    </div>
+</template>
+
+<script setup>
+
+</script>
+
+<style scoped>
+    nav{
+    margin:  10px auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    }
+
+    nav a{
+        color: white;
+        text-decoration: none;
+        margin-left: 12px;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    nav a:hover{
+        color: dodgerblue;
+    }
+
+    .logo{
+        margin-right: auto;
+        padding-left: 10px;
+        color: white;
+    }
+
+    nav h1{
+        color: white;
+    }
+</style>
