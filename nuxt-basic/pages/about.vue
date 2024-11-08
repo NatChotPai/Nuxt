@@ -8,7 +8,7 @@
 <script setup>
 useHead(
     {
-        title:"About Page Website",
+        title:"NatShop | About Page Website",
         meta:[
             {name:"Description" , content:"เกี่ยวกับเรา"}
         ]

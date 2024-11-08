@@ -8,7 +8,7 @@
 <script setup>
 useHead(
     {
-        title:"First Page Website",
+        title:"NatShop |First Page Website",
         meta:[
             {name:"Description" , content:"อุปกรณ์คอมผิวเตอร์"}
         ]
